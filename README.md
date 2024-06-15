@@ -12,7 +12,9 @@ Android  приложение "Wall Clock" выводит метеоинформ
 ![](https://gitflic.ru/project/magdelphi/webservermeteoesp-01s/blob/raw?file=img%2Fs9.jpg)
 
 [Video of this program working](https://gitflic.ru/project/magdelphi/webservermeteoesp-01s/blob/raw?file=img%2Fv1.mp4)
+
 Компоненты:
+
 Релейный модуль ESP01s с Wi-Fi 5В      [https://aliexpress.ru/item/32969212665.html](https://aliexpress.ru/item/32969212665.html)
 OLED-модуль IIC 0,96 дюйма, серийный белый дисплей 128X64 I2C SSD1306      [https://aliexpress.ru/item/32830523451.html](https://aliexpress.ru/item/32830523451.html)
 AHT20 + BMP280 Высокоточный цифровой датчик температуры, влажности, атмосферного давления      [https://aliexpress.ru/item/1005004517568566.html](https://aliexpress.ru/item/1005004517568566.html)
