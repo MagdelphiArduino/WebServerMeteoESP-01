@@ -1,5 +1,5 @@
 
-![](https://gitflic.ru/project/magdelphi/webservermeteoesp-01/blob/raw?file=clock_meteo.gif)
+![](https://gitflic.ru/project/magdelphi/webservermeteoesp-01s/blob/raw?file=clock_meteo.gif)
 
 Релейный модуль ESP01s  используется для связи с датчиком давления, температуры и влажности.
 ![](https://gitflic.ru/project/magdelphi/webservermeteoesp-01/blob/raw?file=image%2Fs5.jpg) ![](https://gitflic.ru/project/magdelphi/webservermeteoesp-01/blob/raw?file=image%2Fs6.jpg) ![](https://gitflic.ru/project/magdelphi/webservermeteoesp-01/blob/raw?file=image%2Fs7.jpg)
