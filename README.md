@@ -11,7 +11,7 @@
 Android  приложение "Настенные часы" каждые 10 сек. отсылает запрос с состоянием батареи на http://192.168.0.157/param, получив ответ считывает и выводит метеоинформацию и, если включени управление зарядкой,  управляет через релейный модуль ESP01 зарядкой.<br/>
 Схема подключения.
 ![](https://gitflic.ru/project/magdelphi/webservermeteoesp-01s/blob/raw?file=img%2Fs9.jpg)<br/>
-<span style="font-size:1.5em;">[VIDEO of this program working](https://gitflic.ru/project/magdelphi/webservermeteoesp-01s/blob/raw?file=img%2Fv1.mp4)</span><br/> 
+<span style="font-size:1.3em;">[VIDEO работы модуля ESP01 с сенсором  AHT20 + BMP280 и OLED I2C дисплеем SSD1306 ](https://gitflic.ru/project/magdelphi/webservermeteoesp-01s/blob/raw?file=img%2Fv1.mp4)</span><br/> 
 Компоненты:<br/>
 Релейный модуль ESP01s с Wi-Fi 5В      [https://aliexpress.ru/item/32969212665.html](https://aliexpress.ru/item/32969212665.html) <br/> 
 OLED-модуль IIC 0,96 дюйма, серийный белый дисплей 128X64 I2C SSD1306      [https://aliexpress.ru/item/32830523451.html](https://aliexpress.ru/item/32830523451.html)<br/>
