@@ -1,14 +1,14 @@
 
 ![](https://gitflic.ru/project/magdelphi/webservermeteoesp-01s/blob/raw?file=img%2Fclock_meteo.gif)<br/>
 <span style="font-size:1.3em;">Полезное устройство на недорогом модуле управления реле по Wi-Fi.<br/>
-Медуль с ESP01  транслирует по Wi-Fi метеоинформацию и управляет реле в зависимости от параметров или управляет зарядкой  Android  приложением "Настенные часы" версии 1,4 и старше.</span><br/>
+Медуль с ESP01  транслирует по Wi-Fi метеоинформацию и управляет реле в зависимости от параметров или управляет зарядкой  Android  приложением "Настенные часы" версии 1.4 и старше.</span><br/>
 Релейный модуль ESP01s  используется для связи с датчиком давления, температуры и влажности.
 ![](https://gitflic.ru/project/magdelphi/webservermeteoesp-01s/blob/raw?file=img%2Fs5.jpg) ![](https://gitflic.ru/project/magdelphi/webservermeteoesp-01s/blob/raw?file=img%2Fs6.jpg) ![](https://gitflic.ru/project/magdelphi/webservermeteoesp-01s/blob/raw?file=img%2Fs7.jpg)
 Показания выводятся на OLED дисплей SSD1306  и передаются по Wi-Fi . <br/>
 Для стабильного соединения в программе задаётся статический IP.<br/>
 Реле модуля управляется в зависимости от заданных значений температуры и влажности. <br/>
 Настройка параметров на любом устройстве с браузером по адресу http://192.168.0.157/setting,  отображение метеоинформации http://192.168.0.157/index. IP адрес задаётся в WebServerMeteoESP-01.ino, кто знаком с Arduino проблем не бует. <br/>
-Android  приложение "Настенные часы" каждые 10 сек. отсылает запрос с состоянием батареи на http://192.168.0.157/param, получив ответ считывает и выводит метеоинформацию и, если включени управление зарядкой,  управляет через релейный модуль ESP01s зарядкой.<br/>
+Android  приложение "Настенные часы" каждые 10 сек. отсылает запрос с состоянием батареи на http://192.168.0.157/param, получив ответ считывает и выводит метеоинформацию и, если включени управление зарядкой,  управляет через релейный модуль ESP01 зарядкой.<br/>
 Схема подключения.
 ![](https://gitflic.ru/project/magdelphi/webservermeteoesp-01s/blob/raw?file=img%2Fs9.jpg)<br/>
 <span style="font-size:1.5em;">[VIDEO of this program working](https://gitflic.ru/project/magdelphi/webservermeteoesp-01s/blob/raw?file=img%2Fv1.mp4)</span><br/> 
