@@ -1,6 +1,6 @@
 
 ![](https://gitflic.ru/project/magdelphi/webservermeteoesp-01s/blob/raw?file=img%2Fclock_meteo.gif)<br/>
-<span style="font-size:1.0em;">ESP01  транслирует по Wi-Fi метеоинформацию и управляет реле в зависимости от параметров или управляет зарядкой смартфона с Android приложением "Wall Clock"</span><br/>
+<span style="font-size:1.3em;">ESP01  транслирует по Wi-Fi метеоинформацию и управляет реле в зависимости от параметров или управляет зарядкой смартфона с Android приложением "Wall Clock"</span><br/>
 Релейный модуль ESP01s  используется для связи с датчиком давления, температуры и влажности.
 ![](https://gitflic.ru/project/magdelphi/webservermeteoesp-01s/blob/raw?file=img%2Fs5.jpg) ![](https://gitflic.ru/project/magdelphi/webservermeteoesp-01s/blob/raw?file=img%2Fs6.jpg) ![](https://gitflic.ru/project/magdelphi/webservermeteoesp-01s/blob/raw?file=img%2Fs7.jpg)
 Показания выводятся на OLED дисплей SSD1306  и передаются по Wi-Fi . <br/>
