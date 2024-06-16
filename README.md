@@ -12,6 +12,8 @@ Android  приложение "Настенные часы" каждые 10 се
 Схема подключения.
 ![](https://gitflic.ru/project/magdelphi/webservermeteoesp-01s/blob/raw?file=img%2Fs9.jpg)<br/>
 <span style="font-size:1.3em;">[VIDEO работы модуля ESP01 с сенсором  AHT20 + BMP280 и OLED I2C дисплеем SSD1306 ](https://gitflic.ru/project/magdelphi/webservermeteoesp-01s/blob/raw?file=img%2Fv1.mp4)</span><br/> 
+<span style="font-size:1.3em;">[Приложение на  RuStore ](https://www.rustore.ru/catalog/app/com.mag.time.clock)</span><br/> 
+<span style="font-size:1.3em;">[Веб сайт](https://magdelphi.ru/)</span><br/> 
 Компоненты:<br/>
 Релейный модуль ESP01s с Wi-Fi 5В      [https://aliexpress.ru/item/32969212665.html](https://aliexpress.ru/item/32969212665.html) <br/> 
 OLED-модуль IIC 0,96 дюйма, серийный белый дисплей 128X64 I2C SSD1306      [https://aliexpress.ru/item/32830523451.html](https://aliexpress.ru/item/32830523451.html)<br/>
