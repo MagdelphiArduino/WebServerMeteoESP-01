@@ -1,5 +1,5 @@
 
-![](https://gitflic.ru/project/magdelphi/webservermeteoesp-01s/blob/raw?file=img%2Fclock_meteo.gif)<br/>
+![](https://raw.githubusercontent.com/MagdelphiArduino/WebServerMeteoESP-01/master/img/clock_meteo.gif)<br/>
 <span style="font-size:1.3em;">Полезное устройство на недорогом модуле управления реле по Wi-Fi.<br/>
 Медуль с ESP01  транслирует по Wi-Fi метеоинформацию и управляет реле в зависимости от параметров или управляет зарядкой  Android  приложением "Настенные часы" версии 1.4 и старше.</span><br/>
 Релейный модуль ESP01s  используется для связи с датчиком давления, температуры и влажности.
