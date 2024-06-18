@@ -1,5 +1,5 @@
 
-![](https://raw.githubusercontent.com/MagdelphiArduino/WebServerMeteoESP-01/master/img/clock_meteo.gif)<br/>
+![](https://gitflic.ru/project/magdelphi/webservermeteoesp-01s/blob/raw?file=img%2Fclock_meteo.gif)<br/>
 <span style="font-size:1.3em;">Полезное устройство на недорогом модуле управления реле по Wi-Fi.<br/>
 Медуль с ESP01  транслирует по Wi-Fi метеоинформацию и управляет реле в зависимости от параметров или управляет зарядкой  Android  приложением "Настенные часы" версии 1.4 и старше.</span><br/>
 Релейный модуль ESP01s  используется для связи с датчиком давления, температуры и влажности.
@@ -18,6 +18,6 @@ Android  приложение "Настенные часы" каждые 10 се
 Релейный модуль ESP01s с Wi-Fi 5В      [https://aliexpress.ru/item/32969212665.html](https://aliexpress.ru/item/32969212665.html) <br/> 
 OLED-модуль IIC 0,96 дюйма, серийный белый дисплей 128X64 I2C SSD1306      [https://aliexpress.ru/item/32830523451.html](https://aliexpress.ru/item/32830523451.html)<br/>
 AHT20 + BMP280 Высокоточный цифровой датчик температуры, влажности, атмосферного давления      [https://aliexpress.ru/item/1005004517568566.html](https://aliexpress.ru/item/1005004517568566.html)
-gg
+
 
 
