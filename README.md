@@ -19,3 +19,6 @@ Android  приложение "Настенные часы" каждые 10 се
 OLED-модуль IIC 0,96 дюйма, серийный белый дисплей 128X64 I2C SSD1306      [https://aliexpress.ru/item/32830523451.html](https://aliexpress.ru/item/32830523451.html)<br/>
 AHT20 + BMP280 Высокоточный цифровой датчик температуры, влажности, атмосферного давления      [https://aliexpress.ru/item/1005004517568566.html](https://aliexpress.ru/item/1005004517568566.html)
 
+debug
+
+
