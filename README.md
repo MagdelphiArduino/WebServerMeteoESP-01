@@ -1,23 +1,22 @@
 
 ![](https://gitflic.ru/project/magdelphi/webservermeteoesp-01s/blob/raw?file=img%2Fclock_meteo.gif)<br/>
-<span style="font-size:1.3em;">Полезное устройство на недорогом модуле управления реле по Wi-Fi.<br/>
-Медуль с ESP01  транслирует по Wi-Fi метеоинформацию и управляет реле в зависимости от параметров или управляет зарядкой  Android  приложением "Настенные часы" версии 1.4 и старше.</span><br/>
-Релейный модуль ESP01s  используется для связи с датчиком давления, температуры и влажности.
+<span style="font-size:1.3em;">A useful device based on an inexpensive relay control module via Wi-Fi.<br/>
+The Medul with ESP01 broadcasts weather information via Wi-Fi and controls the relay depending on the parameters or controls Android charging using the Wall Clock application version 1.4 and older.</span><br/>
+ESP01s relay module is used to communicate with pressure, temperature and humidity sensor.
 ![](https://gitflic.ru/project/magdelphi/webservermeteoesp-01s/blob/raw?file=img%2Fs5.jpg) ![](https://gitflic.ru/project/magdelphi/webservermeteoesp-01s/blob/raw?file=img%2Fs6.jpg) ![](https://gitflic.ru/project/magdelphi/webservermeteoesp-01s/blob/raw?file=img%2Fs7.jpg)
-Показания выводятся на OLED дисплей SSD1306  и передаются по Wi-Fi . <br/>
-Для стабильного соединения в программе задаётся статический IP.<br/>
-Реле модуля управляется в зависимости от заданных значений температуры и влажности. <br/>
-Настройка параметров на любом устройстве с браузером по адресу http://192.168.0.157/setting,  отображение метеоинформации http://192.168.0.157/index. IP адрес задаётся в WebServerMeteoESP-01.ino, кто знаком с Arduino проблем не бует. <br/>
-Android  приложение "Настенные часы" каждые 10 сек. отсылает запрос с состоянием батареи на http://192.168.0.157/param, получив ответ считывает и выводит метеоинформацию и, если включено управление зарядкой,  управляет через релейный модуль ESP01 зарядкой.<br/>
-Схема подключения.
+The readings are displayed on the SSD1306 OLED display and transmitted via Wi-Fi. <br/>
+For a stable connection, a static IP is set in the program.<br/>
+The module relay is controlled depending on the set temperature and humidity values. <br/>
+Configuring settings on any device with a browser at http://192.168.0.157/setting, displaying weather information http://192.168.0.157/index. The IP address is set in WebServerMeteoESP-01.ino, those who are familiar with Arduino will have no problems. <br/>
+Android app "Wall Clock" every 10 seconds. sends a request with the battery status to http://192.168.0.157/param, having received a response, reads and displays weather information and, if charging control is enabled, controls charging via the ESP01 relay module.<br/>
+Connection diagram.
 ![](https://gitflic.ru/project/magdelphi/webservermeteoesp-01s/blob/raw?file=img%2Fs9.jpg)<br/>
-<span style="font-size:1.3em;">[VIDEO работы модуля ESP01 с сенсором  AHT20 + BMP280 и OLED I2C дисплеем SSD1306 ](https://gitflic.ru/project/magdelphi/webservermeteoesp-01s/blob/raw?file=img%2Fv1.mp4)</span><br/> 
-<span style="font-size:1.3em;">[Приложение на  RuStore ](https://www.rustore.ru/catalog/app/com.mag.time.clock)</span><br/> 
-<span style="font-size:1.3em;">[Веб сайт](https://magdelphi.ru/)</span><br/> 
-Компоненты:<br/>
-Релейный модуль ESP01s с Wi-Fi 5В      [https://aliexpress.ru/item/32969212665.html](https://aliexpress.ru/item/32969212665.html) <br/> 
-OLED-модуль IIC 0,96 дюйма, серийный белый дисплей 128X64 I2C SSD1306      [https://aliexpress.ru/item/32830523451.html](https://aliexpress.ru/item/32830523451.html)<br/>
-AHT20 + BMP280 Высокоточный цифровой датчик температуры, влажности, атмосферного давления      [https://aliexpress.ru/item/1005004517568566.html](https://aliexpress.ru/item/1005004517568566.html)
-
+<span style="font-size:1.3em;">[Video operation of the ESP01 module with AHT20 + BMP280 sensor and OLED I2C display SSD1306 ](https://gitflic.ru/project/magdelphi/webservermeteoesp-01s/blob/raw?file=img%2Fv1.mp4)</span><br/> 
+<span style="font-size:1.3em;">[App on RuStore](https://www.rustore.ru/catalog/app/com.mag.time.clock)</span><br/> 
+<span style="font-size:1.3em;">[Web site](https://magdelphi.ru/)</span><br/> 
+Components:<br/>
+Relay module ESP01s with Wi-Fi 5V [https://aliexpress.ru/item/32969212665.html](https://aliexpress.ru/item/32969212665.html) <br/>
+OLED module IIC 0.96 inch, serial white display 128X64 I2C SSD1306 [https://aliexpress.ru/item/32830523451.html](https://aliexpress.ru/item/32830523451.html)<br/>
+AHT20 + BMP280 High-precision digital temperature, humidity, atmospheric pressure sensor [https://aliexpress.ru/item/1005004517568566.html](https://aliexpress.ru/item/1005004517568566.html)
 
 
