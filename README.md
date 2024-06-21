@@ -13,7 +13,7 @@ Connection diagram.
 <span style="font-size:1.3em;">[App on RuStore](https://www.rustore.ru/catalog/app/com.mag.time.clock)</span><br/> 
 <span style="font-size:1.3em;">[Web site](https://magdelphi.ru/)</span><br/> 
 
-[![](https://img.youtube.com/vi/pujb99hwVLg/0.jpg)](https://www.youtube.com/watch?v=pujb99hwVL)
+[![](https://img.youtube.com/vi/pujb99hwVLg/0.jpg)](https://www.youtube.com/shorts/pujb99hwVLg)
 
 Components:<br/>
 Relay module ESP01s with Wi-Fi 5V [https://aliexpress.ru/item/32969212665.html](https://aliexpress.ru/item/32969212665.html) <br/>
