@@ -3,7 +3,7 @@
 <span style="font-size:1.3em;">A useful device based on an inexpensive relay control module via Wi-Fi.<br/>
 The Medul with ESP01 broadcasts weather information via Wi-Fi and controls the relay depending on the parameters or controls Android charging using the Wall Clock application version 1.4 and older.</span><br/>
 ESP01s relay module is used to communicate with pressure, temperature and humidity sensor.
-![](file:///img//s5.jpg) ![](file:///img//s6.jpg) ![](file:///img//s7.jpg)The readings are displayed on the SSD1306 OLED display and transmitted via Wi-Fi. <br/>
+![](https://github.com/MagdelphiArduino/WebServerMeteoESP-01/blob/master/img/s5.jpg) ![](https://github.com/MagdelphiArduino/WebServerMeteoESP-01/blob/master/img/s6.jpg)![](https://github.com/MagdelphiArduino/WebServerMeteoESP-01/blob/master/img/s7.jpg)The readings are displayed on the SSD1306 OLED display and transmitted via Wi-Fi. <br/>
 For a stable connection, a static IP is set in the program.<br/>
 The module relay is controlled depending on the set temperature and humidity values. <br/>
 Configuring settings on any device with a browser at http://192.168.0.157/setting, displaying weather information http://192.168.0.157/index. The IP address is set in WebServerMeteoESP-01.ino, those who are familiar with Arduino will have no problems. <br/>
