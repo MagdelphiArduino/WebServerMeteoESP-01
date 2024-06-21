@@ -1,5 +1,5 @@
 
-![](file:///img%2Fclock_meteo.gif)<br/>
+![](file:///img/clock_meteo.gif)<br/>
 <span style="font-size:1.3em;">A useful device based on an inexpensive relay control module via Wi-Fi.<br/>
 The Medul with ESP01 broadcasts weather information via Wi-Fi and controls the relay depending on the parameters or controls Android charging using the Wall Clock application version 1.4 and older.</span><br/>
 ESP01s relay module is used to communicate with pressure, temperature and humidity sensor.
