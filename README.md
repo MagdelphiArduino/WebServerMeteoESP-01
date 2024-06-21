@@ -12,7 +12,7 @@ Connection diagram.
 ![](https://github.com/MagdelphiArduino/WebServerMeteoESP-01/blob/master/img/s9.jpg)<br/>
 <span style="font-size:1.3em;">[App on RuStore](https://www.rustore.ru/catalog/app/com.mag.time.clock)</span><br/> 
 <span style="font-size:1.3em;">[Web site](https://magdelphi.ru/)</span><br/> 
-[![](https://www.youtube.com/watch?v=pujb99hwVLg/0.jpg)](https://www.youtube.com/watch?v=pujb99hwVLg)<br/> 
+![](https://www.youtube.com/watch?v=pujb99hwVLg/0.jpg)](https://www.youtube.com/watch?v=pujb99hwVLg)<br/> 
 
 Components:<br/>
 Relay module ESP01s with Wi-Fi 5V [https://aliexpress.ru/item/32969212665.html](https://aliexpress.ru/item/32969212665.html) <br/>
