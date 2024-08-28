@@ -7,7 +7,7 @@ ESP01s relay module is used to communicate with pressure, temperature and humidi
 For a stable connection, a static IP is set in the program.<br/>
 The module relay is controlled depending on the set temperature and humidity values. <br/>
 Configuring settings on any device with a browser at http://192.168.0.157/setting, displaying weather information http://192.168.0.157/index. The IP address is set in WebServerMeteoESP-01.ino, those who are familiar with Arduino will have no problems. <br/>
-Android app "Wall Clock" every 10 seconds. sends a request with the battery status to http://192.168.0.157/param, having received a response, reads and displays weather information and, if charging control is enabled, controls charging via the ESP01 relay module.<br/>
+Android app "Wall Clock" every 10 seconds. sends a request with the battery status to http://192.168.0.157/param, having received a response, reads and displays weather information and, if charging control is enabled, controls charging via the ESP01 relay module..<br/>
 Connection diagram.
 ![](https://github.com/MagdelphiArduino/WebServerMeteoESP-01/blob/master/img/s9.jpg)<br/>
 <span style="font-size:1.3em;">[App on RuStore](https://www.rustore.ru/catalog/app/com.mag.time.clock)</span><br/> 
