@@ -1,4 +1,4 @@
-#include <Arduino.h>
+//#include <Arduino.h>
 #include <ESP8266WiFi.h>  // Подключаем библиотеку ESP8266WiFi
 #include <Wire.h>
 #include "display.h"
