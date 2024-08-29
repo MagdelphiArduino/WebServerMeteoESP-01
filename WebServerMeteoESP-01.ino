@@ -15,9 +15,6 @@ box  https://aliexpress.ru/item/1005004052734295.html
 #include "display.h"
 #include "esp32_Smart.h"
 
-// Замените своими данными
-//const char* ssid = "";      //"TP-Link_8C10";
-//const char* password = "";  //"beeline6867";
 
 // Static IP configuration
 IPAddress staticIP(192, 168, 0, 157);  // ESP32 static IP задайте свои значения
@@ -52,12 +49,12 @@ int start_point = 0;
 boolean mods = true;  //режим точка доступа - сервер
 byte modeWifi = 0;    //режим WiFi
 byte countReset = 0;
-String sSSID;          // = "";
-String sPassword;      // = "";
-String sStaticIP;      // = "";
-String gatwei;         // = "";
-String pointSSID;      // = "";
-String pointPassword;  // = "";
+String sSSID;          
+String sPassword;      
+String sStaticIP;      
+String gatwei;         
+String pointSSID;      
+String pointPassword;  
 
 char* IPAddress2String(IPAddress& ip) {
   static char str_IP[16];
@@ -93,7 +90,7 @@ void setup() {
     EEPROM.put(80, 1);  //modeWifi
     EEPROM.put(82, 0);  //countReset
     EEPROM.commit();
-    //   delay(20);
+  
     writeStringToEEPROM(170, "");
     writeStringToEEPROM(190, "");
     writeStringToEEPROM(210, "192.168.0.157");
@@ -111,14 +108,11 @@ void setup() {
   gatwei = readStringFromEEPROM(230);     //192.168.0.1
   pointSSID = readStringFromEEPROM(250);
   pointPassword = readStringFromEEPROM(270);
-  // delay(20);
+ 
   staticIP.fromString(sStaticIP);
-  // delay(20);
+  
   gateway.fromString(gatwei);
-  //  delay(20);
-
-  // Serial.begin(115200);
-  // Serial.println("считываем переменные");
+ 
 
   if (sSSID.equals("")) {
     mods = false;
@@ -164,7 +158,7 @@ void setup() {
     WiFi.begin(sSSID.c_str(), sPassword.c_str());
 
    int count = 0;
-    //  delay(20);
+  
     while (WiFi.status() != WL_CONNECTED) {
       delay(500);
       count++;
@@ -179,7 +173,7 @@ void setup() {
         } else {
           EEPROM.put(82, 0);
           EEPROM.commit();
-          // delay(20);
+         
           if (WiFi.getMode() == WIFI_STA) {
             WiFi.mode(WIFI_AP_STA);  //включение режима точки доступа 192.168.4.1
                                      // delay(100);
@@ -192,7 +186,7 @@ void setup() {
         }
       }
     }
-    // delay(20);
+  
     server.begin();
 
     EEPROM.put(82, 0);
@@ -295,10 +289,6 @@ void loop() {
                                               //
               // заголовок всегда начинается с ответа (например, HTTP/1.1 200 OK) добавляем тип файла ответа:
               client.println("HTTP/1.1 200 Ok\r\nServer:ESP\r\nCache-Control:no-cache\r\nContent-Type:text/html\r\nConnection:close\r\n\r\n");
-              //  client.println("");
-              // client.println("");
-              // client.println("HTTP/1.1 200 OK Content-type:text/html");
-              // client.println();
 
               /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
               if (header.indexOf("GET /wifisave") >= 0) {
@@ -361,7 +351,7 @@ void loop() {
                 header = "";
                 client.println();
                 client.stop();
-                //  delay(10);
+              
                 return;
               }
 
@@ -399,9 +389,7 @@ void loop() {
               }
 
               if (header.indexOf("GET /wifi") >= 0) {
-                //  String rr =
-                //String rr = getSHtml(StcanForWiFis(0));  //без дисконекта
-
+              
                 client.println(getSHtml(StcanForWiFis(0), modeWifi, sSSID, sPassword, sStaticIP, gatwei, pointSSID, pointPassword));
                 header = "";  // Очищаем заголовок  <iframe src="/param"></iframe>
                 client.println();
@@ -529,14 +517,14 @@ void loop() {
                 EEPROM.get(65, bstatus);
                 EEPROM.get(70, bat_on);
                 EEPROM.get(75, bat_off);
-                // delay(10);
+           
                 client.println(setHtml(tonm, toff, hon, hoff, tenab, henab, valueRele, mobil, levelbat, bstatus, bat_on, bat_off));
                 client.println("<p><br><a href='/start'> Выйти</a>");
                 header = "";
                 client.println();
                 //  client.println("Свободной памяти " + String(ESP.getFreeHeap()) + " байт");
                 client.stop();
-                //  delay(10);
+             
                 return;
               }
 
@@ -545,7 +533,7 @@ void loop() {
                 header = "";
                 client.println();
                 client.stop();
-                // delay(10);
+              
                 return;
               }
 
@@ -644,8 +632,7 @@ void loop() {
     printString("Tемп: " + String(temperature, 1) + " C", 1, 5);  //mobil,levelbat
     if (mobil == 0) printString("Реле " + strrele + "     ", 1, 7);
     else if (enab == 0) printString("Реле " + strrele + " " + String(levelbat) + "%", 1, 7);
-    // else printString("Реле " + strrele + "     ", 1, 7);
-
+ 
     delay(300);
   }
 }
