@@ -20,4 +20,7 @@ Relay module ESP01s with Wi-Fi 5V [https://aliexpress.ru/item/32969212665.html](
 OLED module IIC 0.96 inch, serial white display 128X64 I2C SSD1306 [https://aliexpress.ru/item/32830523451.html](https://aliexpress.ru/item/32830523451.html)<br/>
 AHT20 + BMP280 High-precision digital temperature, humidity, atmospheric pressure sensor [https://aliexpress.ru/item/1005004517568566.html](https://aliexpress.ru/item/1005004517568566.html)
 
-
+<span style="font-size:1.3em;">Web interface:
+![image](./img/l1.png) ![image](./img/l2.png)
+![image](./img/l3.png) ![image](./img/l4.png)
+![image](./img/l5.png) 
